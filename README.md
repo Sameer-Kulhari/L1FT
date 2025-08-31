@@ -9,10 +9,12 @@ is performed with a physical device like lifting it up and down certain times.
 - Misguiding and unpredictable
 - Physical device dependancy
 
+## Demo :
+
 ## Usage :
-
+---
 ### Method 1 : With Physical Hardware
-
+---
 ##### **Requirements**
 - ESP32/ESP8266
 - MPU6050
@@ -29,8 +31,9 @@ After that visit to : <ESP_IP>:80
   
 In the User and Password write anything it is just a distraction,to get access you need to have atleast 7 reps then you can enter with any credentails. 
 
+---
 ### Method 2 : With Simulated Hardware
-
+---  
 #### **Requirements**
 - VS CODE
 - Platform IO
@@ -47,6 +50,30 @@ Video Guide :
 ```bash
 gh repo clone Sameer-Kulhari/L1FT
 ```
-```bash
+- **Click on Build in Bottom Panel**  
+- **Go to Diagram.json and click on run**
+- **Go to localhost:8180 and use it**
 
-```
+Video Guide :
+
+
+---
+### Method 3 : Motion detection only on simulated hardware
+---
+Go to [Wokwi Web](https://wokwi.com/projects/440840273941131265)  
+Click on Start and wait for few seconds then click on the Sensor and move the **Z-Axis** parameter few times you can see the reps counter in display.
+
+## Custom Device :
+For more relability and ease of access you can look on pcb design for custom hardware with more advance features like **High precesion** sensors with **Sensor-Fusion** and **Higher performance** 
+
+### Images :
+#### **PCB 3D Images :**
+<p>
+    <img src="PCB/PCB-Front.png" width="45%"> 
+    <img src="PCB/PCB-Back.png"  width="45%"> 
+</p>
+
+#### **Schematic :**
+
+<img src="PCB/Schematic.png" width="60%">
+

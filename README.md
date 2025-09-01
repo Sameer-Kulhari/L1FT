@@ -10,6 +10,9 @@ is performed with a physical device like lifting it up and down certain times.
 - Physical device dependancy
 
 ## Demo :
+**With Physical Hardware**
+
+**On Simulation**
 
 ## Usage :
 ---
@@ -25,11 +28,14 @@ is performed with a physical device like lifting it up and down certain times.
 <img src="PCB/Circuit-Diagram.png">
 
 #### Code :
-[Code](src/main.cpp)  
+[Code](Code/)  
+
 Copy the code and paste in arduino ide and change the wifi credentails and then flash it.  
 After that visit to : <ESP_IP>:80 
   
 In the User and Password write anything it is just a distraction,to get access you need to have atleast 7 reps then you can enter with any credentails. 
+
+Demo: 
 
 ---
 ### Method 2 : With Simulated Hardware

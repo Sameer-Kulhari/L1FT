@@ -11,9 +11,9 @@ is performed with a physical device like lifting it up and down certain times.
 
 ## Demo :
 **With Physical Hardware**
-
+[View](Demo/L1FT.mkv)  
 **On Simulation**
-
+[View](Demo/Demo.mp4)
 ## Usage :
 ---
 ### Method 1 : With Physical Hardware
@@ -36,6 +36,7 @@ After that visit to : <ESP_IP>:80
 In the User and Password write anything it is just a distraction,to get access you need to have atleast 7 reps then you can enter with any credentails. 
 
 Demo: 
+[View](Demo/L1FT.mkv)
 
 ---
 ### Method 2 : With Simulated Hardware
@@ -48,7 +49,6 @@ Demo:
 #### VS Code Setup :
 In VS code download [Platform IO](https://platformio.org/install/ide?install=vscode) and [Wokwi Simulator](https://docs.wokwi.com/vscode/getting-started)
 After that you are good to go.  
-Video Guide :
 
 
 #### Usage :
@@ -61,7 +61,7 @@ gh repo clone Sameer-Kulhari/L1FT
 - **Go to localhost:8180 and use it**
 
 Video Guide :
-
+[View](Demo/L1FT.mkv)
 
 ---
 ### Method 3 : Motion detection only on simulated hardware
@@ -69,7 +69,12 @@ Video Guide :
 Go to [Wokwi Web](https://wokwi.com/projects/440840273941131265)  
 Click on Start and wait for few seconds then click on the Sensor and move the **Z-Axis** parameter few times you can see the reps counter in display.
 
+Video Demo :
+[View](Demo/Web.mkv)
+
+---
 ## Custom Device :
+---
 For more relability and ease of access you can look on pcb design for custom hardware with more advance features like **High precesion** sensors with **Sensor-Fusion** and **Higher performance** 
 
 ### Images :
@@ -82,4 +87,5 @@ For more relability and ease of access you can look on pcb design for custom har
 #### **Schematic :**
 
 <img src="PCB/Schematic.png" width="60%">
+
 

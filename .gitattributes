@@ -1,2 +1,5 @@
 *.mkv filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+Demo/Demo.mp4 filter=lfs diff=lfs merge=lfs -text
+Demo/L1FT.mkv filter=lfs diff=lfs merge=lfs -text
+Demo/Web.mkv filter=lfs diff=lfs merge=lfs -text
